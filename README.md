@@ -2,8 +2,6 @@ Map Quest
 ====
 This easy to use library imports latitude, longitude coordinates from Map Quest API.
 
-[![License](https://img.shields.io/github/license/salmanbe/mapquest)](https://github.com/salmanbe/mapquest/blob/master/LICENSE)
-
 Laravel Installation
 -------
 Install using composer:
