@@ -39,10 +39,13 @@ Basic Usage
 Add `use Salmanbe\MapQuest\MapQuest;` or `use MapQuest;` at top of the class where you want to use it. Then create class instance.
 
 ```php
-$map = new MapQuest($address);
+$map = new MapQuest();
+```
+Set Address
+```php
+$map->set($address);
 ```
 Get Latitude
-
 ```php
 echo $map->latitude();
 ```
@@ -63,7 +66,7 @@ Uninstall
 -----
 First remove `Salmanbe\MapQuest\MapQuestServiceProvider::class,` and 
 `'MapQuest' => Salmanbe\MapQuest\MapQuest::class,` from `config/app.php` if it was added.
-Then Run `composer remove salmanbe/mapQuest` 
+Then Run `composer remove salmanbe/mapquest` 
 
 ## License
 
