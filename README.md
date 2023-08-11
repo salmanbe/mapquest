@@ -7,6 +7,9 @@ This easy to use library imports latitude, longitude coordinates from Map Quest 
 Laravel Installation
 -------
 Install using composer:
+
+You may need to set "minimum-stability": "dev", in your main composer.json file.
+
 ```bash
 composer require salmanbe/mapquest
 ```
@@ -35,7 +38,7 @@ MAP_QUEST_KEY=your_mapquest_api_key
 Basic Usage
 -----
 
-Add `use  Salmanbe\MapQuest\MapQuest;` or `use MapQuest;` at top of the class where you want to use it. Then create class instance.
+Add `use Salmanbe\MapQuest\MapQuest;` or `use MapQuest;` at top of the class where you want to use it. Then create class instance.
 
 ```php
 $map = new MapQuest($address);
