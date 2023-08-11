@@ -1,0 +1,32 @@
+{
+    "name": "salmanbe/mapquest",
+    "description": "Laravel library to import latitude and longitude by address from Map Quest Api",
+    "keywords": ["latitude", "longitude", "coordinates", "map quest"],
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Salmanbe\\MapQuest\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Salman Javaid",
+            "email": "salman@salman.be"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Salmanbe\\MapQuest\\MapQuestServiceProvider"
+            ],
+            "aliases": {
+                "MapQuest": "Salmanbe\\MapQuest\\MapQuest"
+            }
+        }
+    }
+}
