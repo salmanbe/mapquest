@@ -68,6 +68,8 @@ class MapQuest
             CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
             CURLOPT_CUSTOMREQUEST => 'GET',
         ));
+        
+        curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
 
         $response = json_decode(curl_exec($curl));
 
