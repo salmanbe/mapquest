@@ -4,7 +4,7 @@ This easy to use library imports latitude, longitude coordinates from Map Quest 
 
 Video Tutorial
 -------
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/hirKLcEJ1U4/0.jpg)](https://www.youtube.com/watch?v=hirKLcEJ1U4)
+[![Laravel MapQuest](https://img.youtube.com/vi/hirKLcEJ1U4/0.jpg)](https://www.youtube.com/watch?v=hirKLcEJ1U4)
 
 Laravel Installation
 -------
