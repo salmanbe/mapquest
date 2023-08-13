@@ -6,8 +6,6 @@ Laravel Installation
 -------
 Install using composer:
 
-You may need to set "minimum-stability": "dev", in your main composer.json file.
-
 ```bash
 composer require salmanbe/mapquest
 ```
