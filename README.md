@@ -1,6 +1,6 @@
 Map Quest
 ====
-This easy to use library imports latitude, longitude coordinates from Map Quest API.
+This easy to use library imports latitude, longitude coordinates from Map Quest API. You must go to [developer.mapquest.com](https://developer.mapquest.com/) to register and acquire an API key to use with this library. Please note that neither this laravel library is made on behalf of Map Quest nor developer is acting on behalf of Map Quest. There is no coorporation between Map Quest and this library. Map Quest is not responsible for this library. Map Quest API credit goes to Map Quest.
 
 Video Tutorial
 -------
